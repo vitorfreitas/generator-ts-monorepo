@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Vitor Freitas",
+      "authorEmail": "vitorldfreitas@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
