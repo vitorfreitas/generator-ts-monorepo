@@ -1,6 +1,6 @@
 {
   "name": "generator-ts-monorepo",
-  "version": "0.0.7",
+  "version": "0.0.16",
   "description": "A monorepo that uses React, Node.js + Koa and MongoDB",
   "homepage": "",
   "author": {

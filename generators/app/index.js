@@ -25,9 +25,27 @@ module.exports = class extends Generator {
   }
 
   writing() {
+    // Copy regular files
     this.fs.copy(
       this.templatePath("monorepo"),
       this.destinationPath(this.props.name)
+    );
+
+    // Copy dotfiles
+    this.fs.copy(
+      this.templatePath("monorepo/.*"),
+      this.destinationPath(this.props.name)
+    );
+
+    // Copy .gitignore
+    this.fs.copy(
+      this.templatePath("monorepo/.gitignore.template"),
+      this.destinationPath(this.props.name + "/.gitignore")
+    );
+
+    // Remove gitignore template
+    this.fs.delete(
+      this.destinationPath(this.props.name + "/.gitignore.template")
     );
   }
 
