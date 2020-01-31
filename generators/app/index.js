@@ -34,6 +34,9 @@ module.exports = class extends Generator {
   install() {
     const projectDir = process.cwd() + "/" + this.props.name;
     process.chdir(projectDir);
+    this.spawnCommandSync("git", ["init"]);
+    this.spawnCommandSync("git", ["add", "--all"]);
+    this.spawnCommandSync("git", ["commit", "-m", '"initial commit"']);
     this.yarnInstall();
   }
 };
