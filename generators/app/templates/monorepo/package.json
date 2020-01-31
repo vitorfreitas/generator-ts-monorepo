@@ -1,5 +1,5 @@
 {
-  "name": "entria",
+  "name": "monorepo",
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
@@ -9,8 +9,8 @@
     "packages/*"
   ],
   "scripts": {
-    "web": "yarn workspace @entria/web start",
-    "server": "yarn workspace @entria/server start",
+    "web": "yarn workspace web start",
+    "server": "yarn workspace server start",
     "web:server": "run-p web server"
   },
   "devDependencies": {

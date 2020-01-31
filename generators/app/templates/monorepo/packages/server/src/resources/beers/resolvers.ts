@@ -1,4 +1,4 @@
-import { IBeer } from '@entria/shared/interfaces/beer'
+import { IBeer } from 'shared/interfaces/beer'
 import Beer from './model'
 
 export const createBeer = async ctx => {

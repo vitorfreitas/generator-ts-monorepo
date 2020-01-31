@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useHistory } from 'react-router-dom'
-import { IBeer } from '@entria/shared/interfaces/beer'
+import { IBeer } from 'shared/interfaces/beer'
 import Header from 'components/Header'
 import PictureListItem from 'components/PictureListItem'
 

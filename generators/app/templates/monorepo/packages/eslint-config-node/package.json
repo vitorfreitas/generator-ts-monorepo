@@ -1,5 +1,5 @@
 {
-  "name": "@entria/eslint-config-node",
+  "name": "eslint-config-node",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

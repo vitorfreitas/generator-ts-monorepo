@@ -1,5 +1,5 @@
 {
-  "name": "@entria/server",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
@@ -9,8 +9,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@entria/eslint-config-node": "1.0.0",
-    "@entria/shared": "1.0.0",
+    "eslint-config-node": "1.0.0",
+    "shared": "1.0.0",
     "@koa/cors": "^3.0.0",
     "@types/jest": "^24.0.25",
     "@types/koa": "^2.11.0",

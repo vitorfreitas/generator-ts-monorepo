@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { IBeer } from '@entria/shared/interfaces/beer'
+import { IBeer } from 'shared/interfaces/beer'
 import Header from 'components/Header'
 import InfoTable from 'components/InfoTable'
 
